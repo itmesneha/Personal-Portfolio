@@ -1,10 +1,10 @@
 {
-  "name": "parth-desai-blog",
+  "name": "sneha-desai-blog",
   "version": "1.5.6",
   "private": true,
   "author": {
-    "name": "Parth Desai",
-    "email": "desaiparth2000@gmail.com",
+    "name": "Sneha Sarkar",
+    "email": "sneha391998@gmail.com",
     "url": "https://musing.vercel.app/"
   },
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pycoder2000/blog.git"
+    "url": "git+https://github.com/itmesneha/blog.git"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
@@ -51,7 +51,7 @@
     "react-dom": "17.0.2",
     "react-icons": "^4.4.0",
     "react-rough-notation": "^1.0.1",
-    "react-scroll-progress-bar": "^1.1.13",
+    "react-scroll-progress-bar": "^1.2.3",
     "react-share": "^4.4.0",
     "react-social-icons": "^5.13.0",
     "reading-time": "1.3.0",

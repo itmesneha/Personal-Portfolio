@@ -77,34 +77,34 @@ export default function Now(currentlyReading) {
     return () => clearInterval(timer)
   }, [])
 
-  var ParthBirthDate = '2000-04-16'
-  var birthDate = new Date(ParthBirthDate)
+  var SnehaBirthDate = '1998-09-03'
+  var birthDate = new Date(SnehaBirthDate)
 
-  var ParthAge = year - birthDate.getFullYear()
+  var SnehaAge = year - birthDate.getFullYear()
 
-  var ParthMonth = 0
-  if (month >= birthDate.getMonth()) ParthMonth = month - birthDate.getMonth()
+  var SnehaMonth = 0
+  if (month >= birthDate.getMonth()) SnehaMonth = month - birthDate.getMonth()
   else {
-    ParthAge--
-    ParthMonth = 12 + month - birthDate.getMonth()
+    SnehaAge--
+    SnehaMonth = 12 + month - birthDate.getMonth()
   }
 
-  var ParthDay = 0
-  if (date >= birthDate.getDate()) ParthDay = date - birthDate.getDate()
+  var SnehaDay = 0
+  if (date >= birthDate.getDate()) SnehaDay = date - birthDate.getDate()
   else {
-    ParthMonth--
-    ParthDay = 31 + date - birthDate.getDate()
-    if (ParthMonth < 0) {
-      ParthMonth = 11
-      ParthAge--
+    SnehaMonth--
+    SnehaDay = 31 + date - birthDate.getDate()
+    if (SnehaMonth < 0) {
+      SnehaMonth = 11
+      SnehaAge--
     }
   }
 
   var age = {}
   age = {
-    years: ParthAge,
-    months: ParthMonth,
-    days: ParthDay,
+    years: SnehaAge,
+    months: SnehaMonth,
+    days: SnehaDay,
   }
 
   var ageString = ''
