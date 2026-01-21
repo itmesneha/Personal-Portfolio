@@ -1,6 +1,6 @@
 ---
 name: Sneha Sarkar
-avatar: /static/images/avatar.png
+avatar: /static/images/avatar.jpg
 occupation: AI Engineer
 company: National University of Singapore
 email: sneha391998@gmail.com
