@@ -150,8 +150,6 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 | Tool           | Link                                                      |
 | -------------- | --------------------------------------------------------- |
 | Framework      | [Next.js](https://nextjs.org/)                            |
-| ORM            | [Prisma](https://prisma.io/)                              |
-| Database       | [PlanetScale](https://planetscale.com)                    |
 | Authentication | [NextAuth.js](https://next-auth.js.org/)                  |
 | Deployment     | [Vercel](https://vercel.com)                              |
 | Styling        | [Tailwindcss](https://tailwindcss.com/)                   |
@@ -169,7 +167,7 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 ```bash
 📦 root
 ├── 🗂️ components             # React files to customize the components for the site
-├── 🗂️ css                    # Tailwind and Prisma CSS files
+├── 🗂️ css                    # Tailwind CSS files
 ├── 🗂️ data                   # Files to change the content of pages
 │ ├── 🗂️ authors              # Markdown files for authors of blog
 │ ├── 🗂️ blog                 # Markdown files for blog posts

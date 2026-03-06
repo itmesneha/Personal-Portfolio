@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Portfolio | Sneha Sarkar',
   author: 'Sneha Sarkar',
   headerTitle: 'Portfolio',
-  description: 'my personal portfolio, self-updating blog and project showcase',
+  description: 'my personal portfolio and project showcase',
   snippets: 'Reuseable code snippets collected by Sneha',
   language: 'en-us',
   theme: 'system', // system, dark or light
