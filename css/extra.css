@@ -31,7 +31,7 @@ input:-webkit-autofill:focus {
 }
 
 #nprogress .bar {
-  background: #ca8a04;
+  background: #6d147f;
 
   position: fixed;
   z-index: 1031;
@@ -49,7 +49,7 @@ input:-webkit-autofill:focus {
   right: 0px;
   width: 100px;
   height: 100%;
-  box-shadow: 0 0 10px #ca8a04, 0 0 5px #ca8a04;
+  box-shadow: 0 0 10px #6d147f, 0 0 5px #6d147f;
   opacity: 1;
 
   -webkit-transform: rotate(3deg) translate(0px, -4px);
@@ -72,8 +72,8 @@ input:-webkit-autofill:focus {
   box-sizing: border-box;
 
   border: solid 2px transparent;
-  border-top-color: #ca8a04;
-  border-left-color: #ca8a04;
+  border-top-color: #6d147f;
+  border-left-color: #6d147f;
   border-radius: 50%;
 
   -webkit-animation: nprogress-spinner 400ms linear infinite;
@@ -119,7 +119,7 @@ input:-webkit-autofill:focus {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: linear-gradient(transparent, transparent), linear-gradient(to right, #ca8a04, #ca8a04);
+  background: linear-gradient(transparent, transparent), linear-gradient(to right, #a855f7, #a855f7);
   transition: width 0.25s ease;
   -webkit-transition: width 0.25s ease;
 }
@@ -127,7 +127,7 @@ input:-webkit-autofill:focus {
 .link-underline:hover:after {
   width: 100%;
   left: 0;
-  background: linear-gradient(transparent, transparent), linear-gradient(to right, #ca8a04, #ca8a04);
+  background: linear-gradient(transparent, transparent), linear-gradient(to right, #a855f7, #a855f7);
 }
 
 .pushable {

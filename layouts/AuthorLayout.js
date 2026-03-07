@@ -85,7 +85,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                   animationDelay="1000"
                   animationDuration="3000"
                   type="highlight"
-                  color="#CA8A04"
+                  color="#a855f7"
                   strokeWidth="3"
                   show={true}
                 >

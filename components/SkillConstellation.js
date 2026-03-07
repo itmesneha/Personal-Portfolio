@@ -118,7 +118,7 @@ export default function SkillConstellation({ width = 650, height = 650 }) {
 
           if (distance < 150) {
             const opacity = (1 - distance / 150) * 0.4
-            ctx.strokeStyle = `rgba(202, 138, 4, ${opacity})`
+            ctx.strokeStyle = `rgba(109, 20, 127, ${opacity})`
             ctx.beginPath()
             ctx.moveTo(projectedPoints[i].x, projectedPoints[i].y)
             ctx.lineTo(projectedPoints[j].x, projectedPoints[j].y)
@@ -134,10 +134,10 @@ export default function SkillConstellation({ width = 650, height = 650 }) {
 
         // Glow effect
         ctx.shadowBlur = 10
-        ctx.shadowColor = '#ca8a04'
+        ctx.shadowColor = '#6d147f'
 
-        // Draw point in single color (amber)
-        ctx.fillStyle = '#ca8a04'
+        // Draw point in single color (purple)
+        ctx.fillStyle = '#6d147f'
         ctx.globalAlpha = opacity
         ctx.beginPath()
         ctx.arc(point.x, point.y, size, 0, Math.PI * 2)

@@ -152,13 +152,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     subject={title}
                     separator=" : "
                     url={postUrl}
-                    className="flex items-center overflow-hidden rounded-full !bg-[#CA8A04] hover:scale-110"
+                    className="flex items-center overflow-hidden rounded-full !bg-[#6d147f] hover:scale-110"
                   >
                     <SocialIcon
                       network="email"
                       style={{ height: 35, width: 35 }}
                       fgColor="#fff"
-                      bgColor="#CA8A04"
+                      bgColor="#6d147f"
                     />
                   </EmailShareButton>
                   <LinkedinShareButton

@@ -39,9 +39,9 @@ Router.onRouteChangeError = () => {
 const defaultTheme = {
   colors: {
     primary: '#71717a',
-    secondary: '#CA8A04',
+    secondary: '#6d147f',
     text: '#fff',
-    highlight: '#CA8A04',
+    highlight: '#6d147f',
     icon: '#fff',
     background: 'transparent',
   },
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
     <SessionProvider session={session}>
       <Provider apiKey="pt_7c8b6840f5ba39cd3b2b471cd8efc2" theme={defaultTheme}>
         <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
-          <ProgressBar bgcolor="#CA8A04" />
+          <ProgressBar bgcolor="#6d147f" />
           <ScrollTop />
           <Head>
             <meta content="width=device-width, initial-scale=1" name="viewport" />
