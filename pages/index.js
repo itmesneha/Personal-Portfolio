@@ -22,7 +22,7 @@ export default function Home() {
             I work on agentic AI, ML platforms, and game dev. Check out my projects or{' '}
             <RoughNotation
               animate="true"
-              type="highlight"
+              type="underline"
               show={true}
               color="#a855f7"
               animationDelay={1000}
