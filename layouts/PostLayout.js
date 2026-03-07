@@ -93,7 +93,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           {author.twitter && (
                             <Link
                               href={author.twitter}
-                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-500"
                             >
                               {author.twitter.replace('https://twitter.com/', '@')}
                               <svg
@@ -152,13 +152,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     subject={title}
                     separator=" : "
                     url={postUrl}
-                    className="flex items-center overflow-hidden rounded-full !bg-[#B61AC1] hover:scale-110"
+                    className="flex items-center overflow-hidden rounded-full !bg-[#CA8A04] hover:scale-110"
                   >
                     <SocialIcon
                       network="email"
                       style={{ height: 35, width: 35 }}
                       fgColor="#fff"
-                      bgColor="#B61AC1"
+                      bgColor="#CA8A04"
                     />
                   </EmailShareButton>
                   <LinkedinShareButton
@@ -236,7 +236,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Previous Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-500">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -246,7 +246,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Next Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-500">
                           <Link href={`/blog/${next.slug}`}>{next.title}</Link>
                         </div>
                       </div>
@@ -257,7 +257,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-4 xl:pt-8">
                 <Link
                   href="/blog"
-                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-500"
                 >
                   &larr; Back to the blog
                 </Link>
