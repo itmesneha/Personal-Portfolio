@@ -32,7 +32,7 @@ export default function AnimatedAvatar({ width = 650, height = 650, fps = 8 }) {
     >
       <div className="relative h-full w-full">
         <Image
-          src={`/static/images/sneha_animation/${currentFrame}.png`}
+          src={`/static/images/sneha_animation_hands_closed/${currentFrame}.png`}
           alt="Animated avatar"
           layout="fill"
           objectFit="contain"
