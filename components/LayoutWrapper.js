@@ -16,7 +16,7 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
-        <header className="flex flex-col space-y-4 py-10">
+        <header className="py-10">
           {/* Navbar - left aligned links, right aligned icons */}
           <div className="flex items-center justify-between text-base leading-5">
             {/* Left: Mobile hamburger menu (mobile only) / Nav links (desktop) */}
@@ -44,22 +44,6 @@ const LayoutWrapper = ({ children }) => {
               </div>
               <ThemeSwitch />
             </div>
-          </div>
-
-          {/* Path display moved lower */}
-          <div>
-            <Link href="/" aria-label={siteMetadata.headerTitle}>
-              <div className="text-primary-color dark:text-primary-color-dark flex items-center text-xl font-semibold">
-                {`~${router.asPath}`}{' '}
-                <Typewriter
-                  options={{
-                    strings: [],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </div>
-            </Link>
           </div>
         </header>
         <main className="mb-auto">{children}</main>

@@ -32,7 +32,7 @@ export default function Home() {
           src="/static/images/neural_network.png"
           height="50"
           width="50"
-          className="absolute right-10 top-48 hidden rotate-[250deg] opacity-80 lg:block"
+          className="right-62 absolute top-10 hidden rotate-[240deg] opacity-80 lg:block"
         ></img>
 
         {/* Main content - stays centered */}
