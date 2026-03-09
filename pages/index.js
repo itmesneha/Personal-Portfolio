@@ -28,6 +28,13 @@ export default function Home() {
           width="60"
           className="absolute right-0 bottom-20 hidden opacity-80 lg:block"
         ></img>
+        <img
+          src="/static/images/neural_network.png"
+          transform="rotate(90)"
+          height="100"
+          width="100"
+          className="absolute left-64 bottom-24 hidden opacity-80 lg:block"
+        ></img>
 
         {/* Main content - stays centered */}
         <div className="flex min-h-[80vh] flex-col items-center justify-center lg:flex-row">
