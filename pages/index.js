@@ -14,7 +14,7 @@ export default function Home() {
           src="/static/images/laptop.png"
           height="50"
           width="50"
-          className="absolute right-40 top-40 hidden opacity-80 lg:block"
+          className="absolute right-48 top-32 hidden opacity-80 lg:block"
         ></img>
         <img
           src="/static/images/mail.png"
@@ -30,10 +30,9 @@ export default function Home() {
         ></img>
         <img
           src="/static/images/neural_network.png"
-          transform="rotate(90)"
-          height="100"
-          width="100"
-          className="absolute left-64 bottom-24 hidden opacity-80 lg:block"
+          height="50"
+          width="50"
+          className="absolute right-10 top-48 hidden rotate-[250deg] opacity-80 lg:block"
         ></img>
 
         {/* Main content - stays centered */}
