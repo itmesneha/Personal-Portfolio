@@ -4,10 +4,11 @@ import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import ThemeSwitch from './ThemeSwitch'
+import SocialIcon from './social-icons'
+import MobileNav from './MobileNav'
 import Typewriter from 'typewriter-effect'
 import { useRouter } from 'next/router'
 // import Logo from '@/data/logo.svg'
-// import MobileNav from './MobileNav'
 
 const LayoutWrapper = ({ children }) => {
   const router = useRouter()
@@ -15,22 +16,40 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
-        <header className="flex items-center justify-between py-10">
+        <header className="flex flex-col space-y-4 py-10">
+          {/* Navbar - left aligned links, right aligned icons */}
+          <div className="flex items-center justify-between text-base leading-5">
+            {/* Left: Mobile hamburger menu (mobile only) / Nav links (desktop) */}
+            <div className="flex items-center">
+              <MobileNav />
+              <div className="hidden sm:block">
+                {headerNavLinks.map((link) => (
+                  <Link
+                    key={link.title}
+                    href={link.href}
+                    className="link-underline rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-100 dark:hover:bg-gray-700 sm:py-2 sm:px-3"
+                  >
+                    {link.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Right: Social icons + theme switch (always visible) */}
+            <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2">
+                <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={5} />
+                <SocialIcon kind="github" href={siteMetadata.github} size={5} />
+                <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={5} />
+              </div>
+              <ThemeSwitch />
+            </div>
+          </div>
+
+          {/* Path display moved lower */}
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
-              {/* <div className="flex items-center justify-between">
-                <div className="mr-1">
-                  <Logo />
-                </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
-                    {siteMetadata.headerTitle}
-                  </div>
-                ) : (
-                  siteMetadata.headerTitle
-                )}
-              </div> */}
-              <div className="text-primary-color dark:text-primary-color-dark flex items-center justify-between text-xl font-semibold">
+              <div className="text-primary-color dark:text-primary-color-dark flex items-center text-xl font-semibold">
                 {`~${router.asPath}`}{' '}
                 <Typewriter
                   options={{
@@ -41,21 +60,6 @@ const LayoutWrapper = ({ children }) => {
                 />
               </div>
             </Link>
-          </div>
-          <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
-              {headerNavLinks.map((link) => (
-                <Link
-                  key={link.title}
-                  href={link.href}
-                  className="link-underline rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-100 dark:hover:bg-gray-700 sm:py-2 sm:px-3"
-                >
-                  {link.title}
-                </Link>
-              ))}
-            </div>
-            <ThemeSwitch />
-            {/* <MobileNav /> */}
           </div>
         </header>
         <main className="mb-auto">{children}</main>

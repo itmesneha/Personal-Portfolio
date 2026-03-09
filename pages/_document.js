@@ -100,7 +100,7 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <meta
             name="description"
-            content="Welcome to my personal portfolio where I share my work and musings. I am a Data Engineer passionate about Data Science, building pipelines and Automation."
+            content="Welcome to my personal portfolio. I'm an AI/ML Engineer in Singapore, building intelligent systems that solve real problems."
           />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
