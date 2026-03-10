@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  <em>Personal Portfolio</em>
+  Personal Portfolio
 </h1>
 
 <p align="center">
