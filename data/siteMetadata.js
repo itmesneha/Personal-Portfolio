@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/itmesneha/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/avatar.png',
   email: 'sneha391998@gmail.com',
   github: 'https://github.com/itmesneha',
   linkedin: 'https://www.linkedin.com/in/snesarka/',

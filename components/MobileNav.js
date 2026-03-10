@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
+import useSound from 'use-sound'
 
 const MobileNav = () => {
   const [navShow, setNavShow] = useState(false)
+  const [playPageSound] = useSound('/static/sounds/page-change.mp3')
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -70,7 +72,10 @@ const MobileNav = () => {
               <Link
                 href={link.href}
                 className="link-underline inline-block rounded py-2 px-3 text-2xl font-medium text-gray-900 transition-colors hover:bg-primary-300 dark:text-gray-100 dark:hover:bg-primary-700"
-                onClick={onToggleNav}
+                onClick={() => {
+                  playPageSound()
+                  onToggleNav()
+                }}
               >
                 {link.title}
               </Link>

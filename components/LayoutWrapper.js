@@ -8,10 +8,12 @@ import SocialIcon from './social-icons'
 import MobileNav from './MobileNav'
 import Typewriter from 'typewriter-effect'
 import { useRouter } from 'next/router'
+import useSound from 'use-sound'
 // import Logo from '@/data/logo.svg'
 
 const LayoutWrapper = ({ children }) => {
   const router = useRouter()
+  const [playPageSound] = useSound('/static/sounds/page-change.mp3')
 
   return (
     <SectionContainer>
@@ -28,6 +30,7 @@ const LayoutWrapper = ({ children }) => {
                     key={link.title}
                     href={link.href}
                     className="link-underline rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-100 dark:hover:bg-gray-700 sm:py-2 sm:px-3"
+                    onClick={playPageSound}
                   >
                     {link.title}
                   </Link>

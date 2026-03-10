@@ -4,6 +4,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en" className="scroll-smooth">
         <Head>
+          <link rel="icon" href="/favicon.ico" sizes="any" />
+          <link rel="icon" href="/favicon.png" type="image/png" />
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/avocado.png" />
           <link
             rel="apple-touch-icon-precomposed"
@@ -47,23 +49,15 @@ class MyDocument extends Document {
           />
           <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/avocado.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/avocado.png" />
+          <link rel="shortcut icon" href="/static/favicons/avocado.png" type="image/png" />
           <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="196x196" />
           <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="96x96" />
           <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="128x128" />
-          <meta name="msapplication-TileImage" content="/static/favicons/mstile-144x144.png" />
-          <meta name="msapplication-square70x70logo" content="/static/favicons/mstile-70x70.png" />
-          <meta
-            name="msapplication-square150x150logo"
-            content="/static/favicons/mstile-150x150.png"
-          />
-          <meta
-            name="msapplication-wide310x150logo"
-            content="/static/favicons/mstile-310x150.png"
-          />
-          <meta
-            name="msapplication-square310x310logo"
-            content="/static/favicons/mstile-310x310.png"
-          />
+          <meta name="msapplication-TileImage" content="/static/favicons/avocado.png" />
+          <meta name="msapplication-square70x70logo" content="/static/favicons/avocado.png" />
+          <meta name="msapplication-square150x150logo" content="/static/favicons/avocado.png" />
+          <meta name="msapplication-wide310x150logo" content="/static/favicons/avocado.png" />
+          <meta name="msapplication-square310x310logo" content="/static/favicons/avocado.png" />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
           <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="msapplication-TileColor" content="#000000" />
