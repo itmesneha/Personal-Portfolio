@@ -7,12 +7,12 @@
 </h1>
 
 <p align="center">
-  This is my personal portfolio blog hosted <a href="https://musing.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
+  This is my personal portfolio blog hosted <a href="https://snehasarkar.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
 </p>
 
 <div align="center">
 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=Vercel&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=Vercel&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 </div>
 
@@ -50,15 +50,15 @@
 
 ## 📚 Tech Stack
 
-| Tool           | Link                                                      |
-| -------------- | --------------------------------------------------------- |
-| Framework      | [Next.js](https://nextjs.org/)                            |
-| Deployment     | [Vercel](https://vercel.com)                              |
-| Styling        | [Tailwindcss](https://tailwindcss.com/)                   |
-| Comment        | [Tailwindcss](https://tailwindcss.com/)                   |
-| Content        | [MDX](https://mdxjs.com/)                                 |
-
+| Tool       | Link                                    |
+| ---------- | --------------------------------------- |
+| Framework  | [Next.js](https://nextjs.org/)          |
+| Deployment | [Vercel](https://vercel.com)            |
+| Styling    | [Tailwindcss](https://tailwindcss.com/) |
+| Comment    | [Tailwindcss](https://tailwindcss.com/) |
+| Content    | [MDX](https://mdxjs.com/)               |
 
 ## 💡 Inspired by:
-  - https://musing.vercel.app/
-  - https://www.gazijarin.com
+
+- https://snehasarkar.vercel.app/
+- https://www.gazijarin.com
