@@ -4,81 +4,52 @@ class MyDocument extends Document {
     return (
       <Html lang="en" className="scroll-smooth">
         <Head>
-          <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="/static/favicons/apple-touch-icon-76x76.png"
-          />
+          <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/avocado.png" />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="57x57"
-            href="/static/favicons/apple-touch-icon-57x57.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="114x114"
-            href="/static/favicons/apple-touch-icon-114x114.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="72x72"
-            href="/static/favicons/apple-touch-icon-72x72.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="144x144"
-            href="/static/favicons/apple-touch-icon-144x144.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="60x60"
-            href="/static/favicons/apple-touch-icon-60x60.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="120x120"
-            href="/static/favicons/apple-touch-icon-120x120.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="76x76"
-            href="/static/favicons/apple-touch-icon-76x76.png"
+            href="/static/favicons/avocado.png"
           />
           <link
             rel="apple-touch-icon-precomposed"
             sizes="152x152"
-            href="/static/favicons/apple-touch-icon-152x152.png"
+            href="/static/favicons/avocado.png"
           />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/static/favicons/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/static/favicons/favicon-16x16.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-196x196.png"
-            sizes="196x196"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-96x96.png"
-            sizes="96x96"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            href="/static/favicons/favicon-128.png"
-            sizes="128x128"
-          />
+          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/avocado.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/avocado.png" />
+          <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="196x196" />
+          <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="96x96" />
+          <link rel="icon" type="image/png" href="/static/favicons/avocado.png" sizes="128x128" />
           <meta name="msapplication-TileImage" content="/static/favicons/mstile-144x144.png" />
           <meta name="msapplication-square70x70logo" content="/static/favicons/mstile-70x70.png" />
           <meta
@@ -114,7 +85,7 @@ class MyDocument extends Document {
             integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
             crossOrigin="anonymous"
           />
-          <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+          <link rel="icon" href="/static/favicons/avocado.png" type="image/png" />
           <meta
             name="google-site-verification"
             content="_Ba0lKk4Dl9XMvABJ9gZEtoMPITT5Vr5TGx2M-34Z_I"

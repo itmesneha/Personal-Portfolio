@@ -58,6 +58,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
           <ProgressBar bgcolor="#6d147f" />
           <ScrollTop />
           <Head>
+            <title>Sneha</title>
             <meta content="width=device-width, initial-scale=1" name="viewport" />
           </Head>
           {isDevelopment && isSocket && <ClientReload />}
