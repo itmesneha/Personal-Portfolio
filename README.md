@@ -3,7 +3,7 @@
 </div>
 
 <h1 align="center">
-  Personal Blog - <em>Mere Musings</em>
+  <em>Personal Portfolio</em>
 </h1>
 
 <p align="center">
