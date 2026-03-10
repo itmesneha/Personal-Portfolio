@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="public/static/favicons/avocado.png" width="100" />
+  <img alt="Logo" src="public/static/favicons/avocado.png" width="50" />
 </div>
 
 <h1 align="center">
@@ -8,12 +8,6 @@
 
 <p align="center">
   This is my personal portfolio blog hosted <a href="https://musing.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
-</p>
-
-<p align="center">
-  Inspired by:
-  - https://musing.vercel.app/
-  - https://www.gazijarin.com
 </p>
 
 <div align="center">
@@ -65,3 +59,6 @@
 | Content        | [MDX](https://mdxjs.com/)                                 |
 
 
+## 💡 Inspired by:
+  - https://musing.vercel.app/
+  - https://www.gazijarin.com
