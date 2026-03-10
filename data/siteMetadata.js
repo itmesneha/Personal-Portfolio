@@ -14,7 +14,7 @@ const siteMetadata = {
   email: 'sneha391998@gmail.com',
   github: 'https://github.com/itmesneha',
   linkedin: 'https://www.linkedin.com/in/snesarka/',
-  website: 'https://parthdesai.vercel.app',
+  website: 'https://snehasarkar.vercel.app',
   locale: 'en-US',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
