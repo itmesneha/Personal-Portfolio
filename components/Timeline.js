@@ -22,7 +22,7 @@ import { TbDeviceDesktopAnalytics } from 'react-icons/tb'
 export default function Timeline() {
   return (
     <div>
-      <ol className="relative mt-6 ml-6 border-l border-zinc-400 dark:border-gray-800 ">
+      <ol className="relative ml-6 mt-6 border-l border-zinc-400 dark:border-gray-800 ">
         <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-200 ring-8 ring-white dark:bg-purple-900 dark:ring-gray-900">
             <FaBlackTie />

@@ -20,13 +20,13 @@ export default function Home() {
           src="/static/images/mail.png"
           height="50"
           width="50"
-          className="absolute left-64 bottom-24 hidden opacity-80 lg:block"
+          className="absolute bottom-24 left-64 hidden opacity-80 lg:block"
         ></img>
         <img
           src="/static/images/mouse.png"
           height="60"
           width="60"
-          className="absolute right-0 bottom-20 hidden opacity-80 lg:block"
+          className="absolute bottom-20 right-0 hidden opacity-80 lg:block"
         ></img>
         <img
           src="/static/images/neural_network.png"
