@@ -28,13 +28,6 @@ export default function AuthorLayout({ children, frontMatter }) {
     <>
       <PageSEO title={`About - ${name}`} description={`A little about me`} />
 
-      {/* About heading - mobile only, shown first */}
-      {/* <div className="space-y-2 pb-6 pt-6 lg:hidden">
-        <h1 className="px-6 text-left text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10">
-          About
-        </h1>
-      </div> */}
-
       {/* Profile photo - shows after heading on mobile, left on desktop */}
       <div className="mb-6 flex flex-col items-center px-6 lg:hidden">
         <Image

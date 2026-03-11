@@ -14,11 +14,7 @@ const Contact = () => {
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink href="mailto:sneha391998@gmail.com" title="gmail" icon="" />
             <ContactLink href="https://github.com/itmesneha" title="github" icon="" />
-            <ContactLink
-              href="https://www.linkedin.com/in/snesarka/"
-              title="linkedin"
-              icon=""
-            />
+            <ContactLink href="https://www.linkedin.com/in/snesarka/" title="linkedin" icon="" />
           </ul>
         </div>
       </div>
