@@ -27,7 +27,7 @@ export default function AuthorLayout({ children, frontMatter }) {
   return (
     <>
       <PageSEO title={`About - ${name}`} description={`A little about me`} />
-      
+
       {/* About heading - mobile only, shown first */}
       {/* <div className="space-y-2 pb-6 pt-6 lg:hidden">
         <h1 className="px-6 text-left text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10">
@@ -46,9 +46,7 @@ export default function AuthorLayout({ children, frontMatter }) {
           placeholder="blur"
           blurDataURL="/static/images/SVG-placeholder.png"
         />
-        <h3 className="pb-2 pt-4 text-center text-xl font-bold leading-8 tracking-tight">
-          {name}
-        </h3>
+        <h3 className="pb-2 pt-4 text-center text-xl font-bold leading-8 tracking-tight">{name}</h3>
         <div className="text-center text-sm text-gray-500 dark:text-gray-400">{occupation}</div>
         <div className="text-center text-sm text-gray-500 dark:text-gray-400">{company}</div>
       </div>
