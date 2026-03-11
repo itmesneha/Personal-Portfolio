@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Portfolio | Sneha Sarkar',
   author: 'Sneha Sarkar',
   headerTitle: 'Portfolio',
-  description: 'AI/ML Engineer in Singapore building intelligent systems that solve real problems. Explore my projects in agentic AI, ML platforms, and game development.',
+  description: 'my personal portfolio',
   snippets: 'Reuseable code snippets collected by Sneha',
   language: 'en-us',
   theme: 'system', // system, dark or light
