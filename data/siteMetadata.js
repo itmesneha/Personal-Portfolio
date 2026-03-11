@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Portfolio | Sneha Sarkar',
   author: 'Sneha Sarkar',
   headerTitle: 'Portfolio',
-  description: 'my personal portfolio',
+  description: 'AI/ML Engineer in Singapore building intelligent systems that solve real problems. Explore my projects in agentic AI, ML platforms, and game development.',
   snippets: 'Reuseable code snippets collected by Sneha',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/itmesneha/blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/avatar.png',
+  socialBanner: '/static/images/website_card.png',
   email: 'sneha391998@gmail.com',
   github: 'https://github.com/itmesneha',
   linkedin: 'https://www.linkedin.com/in/snesarka/',
